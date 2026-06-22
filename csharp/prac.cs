@@ -10,7 +10,7 @@ if (roll == roll_2 || roll == roll_3 || roll_2 == roll_3)
     bonus = bonus + 2;
 }
 
-if ( roll == roll_2 == roll_3)
+if ((roll == roll_2) && (roll_2 == roll_3))
 {
     bonus = bonus + 6;
 }
