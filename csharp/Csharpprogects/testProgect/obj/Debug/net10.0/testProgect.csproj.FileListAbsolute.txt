@@ -1,0 +1,15 @@
+D:\code\csharp\Csharpprogects\testProgect\bin\Debug\net10.0\testProgect.exe
+D:\code\csharp\Csharpprogects\testProgect\bin\Debug\net10.0\testProgect.deps.json
+D:\code\csharp\Csharpprogects\testProgect\bin\Debug\net10.0\testProgect.runtimeconfig.json
+D:\code\csharp\Csharpprogects\testProgect\bin\Debug\net10.0\testProgect.dll
+D:\code\csharp\Csharpprogects\testProgect\bin\Debug\net10.0\testProgect.pdb
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\testProgect.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\testProgect.AssemblyInfoInputs.cache
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\testProgect.AssemblyInfo.cs
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\testProgect.csproj.CoreCompileInputs.cache
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\testProgect.sourcelink.json
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\testProgect.dll
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\refint\testProgect.dll
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\testProgect.pdb
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\testProgect.genruntimeconfig.cache
+D:\code\csharp\Csharpprogects\testProgect\obj\Debug\net10.0\ref\testProgect.dll
