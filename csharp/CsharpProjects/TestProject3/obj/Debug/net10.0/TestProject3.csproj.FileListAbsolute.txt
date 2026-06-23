@@ -1,0 +1,15 @@
+D:\code\csharp\CsharpProjects\TestProject3\bin\Debug\net10.0\TestProject3.exe
+D:\code\csharp\CsharpProjects\TestProject3\bin\Debug\net10.0\TestProject3.deps.json
+D:\code\csharp\CsharpProjects\TestProject3\bin\Debug\net10.0\TestProject3.runtimeconfig.json
+D:\code\csharp\CsharpProjects\TestProject3\bin\Debug\net10.0\TestProject3.dll
+D:\code\csharp\CsharpProjects\TestProject3\bin\Debug\net10.0\TestProject3.pdb
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\TestProject3.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\TestProject3.AssemblyInfoInputs.cache
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\TestProject3.AssemblyInfo.cs
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\TestProject3.csproj.CoreCompileInputs.cache
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\TestProject3.sourcelink.json
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\TestProject3.dll
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\refint\TestProject3.dll
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\TestProject3.pdb
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\TestProject3.genruntimeconfig.cache
+D:\code\csharp\CsharpProjects\TestProject3\obj\Debug\net10.0\ref\TestProject3.dll
