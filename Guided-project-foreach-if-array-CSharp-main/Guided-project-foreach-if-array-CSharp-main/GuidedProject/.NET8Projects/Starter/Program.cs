@@ -56,12 +56,21 @@ foreach (string name in studentName)
     if (currnetStudentGread >= 83)
         currentStudentletterGread = "B";
     if (currnetStudentGread >= 80)
-        currentStudentletterGread = "C+";
+        currentStudentletterGread = "B-";
     if (currnetStudentGread >= 77)
+        currentStudentletterGread = "C+";
+    if (currnetStudentGread >= 73)
         currentStudentletterGread = "C";
-    if (currnetStudentGread >= 97)
-        currentStudentletterGread = "A+";
-
+    if (currnetStudentGread >= 70)
+        currentStudentletterGread = "C-";
+    if (currnetStudentGread >= 67)
+        currentStudentletterGread = "D+";
+    if (currnetStudentGread >= 63)
+        currentStudentletterGread = "D";
+    if (currnetStudentGread >= 60)
+        currentStudentletterGread = "D-";
+   else
+       currentStudentletterGread = "F";
 
     Console.WriteLine($"{currentStudent}\t\t{currnetStudentGread}\t?");
 }
