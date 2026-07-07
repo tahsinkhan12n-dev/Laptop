@@ -33,19 +33,19 @@ int main()
     {
         printf("Average Gread: A+");
     }
-    else if (avg >= 70 && avg < 80)
+    else if (avg >= 70)
     {
         printf("Average Gread: A");
     }
-    else if (avg >= 60 && avg < 70)
+    else if (avg >= 60)
     {
         printf("Average Gread: B");
     }
-    else if (avg >= 50 && avg < 60)
+    else if (avg >= 50)
     {
         printf("Average Gread: C");
     }
-    else if (avg >= 40 && avg < 50)
+    else if (avg >= 40)
     {
         printf("Average Gread: D");
     }

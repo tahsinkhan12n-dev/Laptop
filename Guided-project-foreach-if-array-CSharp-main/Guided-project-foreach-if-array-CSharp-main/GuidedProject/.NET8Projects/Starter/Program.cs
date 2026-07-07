@@ -11,7 +11,7 @@ int[] loganScores = [90, 95, 87, 88, 96];
 string[] studentName = ["Sophia", "Andrew", "Emma", "Logan"];
 int[] studentScores = new int[10];
 
-string currentStudentletterGread = "";
+string currentStudentletterGrade = "";
 
 Console.WriteLine("Student\t\tGrade\n");
 
@@ -37,41 +37,52 @@ foreach (string name in studentName)
     }
 
     int studentSum = 0;
-    decimal currnetStudentGread = 0;
+    decimal currnetStudentGrade = 0;
 
     foreach (int score in studentScores)
     {
         studentSum += score;
     }
-    currnetStudentGread = (decimal)studentSum / currentAssignments;
+    currnetStudentGrade = (decimal)studentSum / currentAssignments;
 
-    if (currnetStudentGread >= 97)
-        currentStudentletterGread = "A+";
-    if (currnetStudentGread >= 93)
-        currentStudentletterGread = "A";
-    if (currnetStudentGread >= 90)
-        currentStudentletterGread = "A-";
-    if (currnetStudentGread >= 87)
-        currentStudentletterGread = "B+";
-    if (currnetStudentGread >= 83)
-        currentStudentletterGread = "B";
-    if (currnetStudentGread >= 80)
-        currentStudentletterGread = "B-";
-    if (currnetStudentGread >= 77)
-        currentStudentletterGread = "C+";
-    if (currnetStudentGread >= 73)
-        currentStudentletterGread = "C";
-    if (currnetStudentGread >= 70)
-        currentStudentletterGread = "C-";
-    if (currnetStudentGread >= 67)
-        currentStudentletterGread = "D+";
-    if (currnetStudentGread >= 63)
-        currentStudentletterGread = "D";
-    if (currnetStudentGread >= 60)
-        currentStudentletterGread = "D-";
-   else
-       currentStudentletterGread = "F";
+    if (currnetStudentGrade >= 97)
+        currentStudentletterGrade = "A+";
 
-    Console.WriteLine($"{currentStudent}\t\t{currnetStudentGread}\t?");
+    else if (currnetStudentGrade >= 93)
+        currentStudentletterGrade = "A";
+
+    else if (currnetStudentGrade >= 90)
+        currentStudentletterGrade = "A-";
+
+    else if (currnetStudentGrade >= 87)
+        currentStudentletterGrade = "B+";
+
+    else if (currnetStudentGrade >= 83)
+        currentStudentletterGrade = "B";
+
+    else if (currnetStudentGrade >= 80)
+        currentStudentletterGrade = "B-";
+
+    else if (currnetStudentGrade >= 77)
+        currentStudentletterGrade = "C+";
+
+    else if (currnetStudentGrade >= 73)
+        currentStudentletterGrade = "C";
+
+    else if (currnetStudentGrade >= 70)
+        currentStudentletterGrade = "C-";
+
+    else if (currnetStudentGrade >= 67)
+        currentStudentletterGrade = "D+";
+
+    else if (currnetStudentGrade >= 63)
+        currentStudentletterGrade = "D";
+
+    else if (currnetStudentGrade >= 60)
+        currentStudentletterGrade = "D-";
+
+    else
+       currentStudentletterGrade = "F";
+
+    Console.WriteLine($"{currentStudent}\t\t{currnetStudentGrade}\t{currentStudentletterGrade}");
 }
-
