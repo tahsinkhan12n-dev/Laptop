@@ -3,10 +3,10 @@
 // initialize variables - graded assignments 
 int currentAssignments = 5;
 
-int[] sophiaScores = [90, 86, 87, 98, 100];
-int[] andrewScores = [92, 89, 81, 96, 90];
-int[] emmaScores = [90, 85, 87, 98, 68];
-int[] loganScores = [90, 95, 87, 88, 96];
+int[] sophiaScores = [90, 86, 87, 98, 100, 94, 90];
+int[] andrewScores = [92, 89, 81, 96, 90, 89];
+int[] emmaScores = [90, 85, 87, 98, 68, 89, 89, 89];
+int[] loganScores = [90, 95, 87, 88, 96, 96];
 
 string[] studentName = ["Sophia", "Andrew", "Emma", "Logan"];
 int[] studentScores = new int[10];
@@ -39,9 +39,21 @@ foreach (string name in studentName)
     int studentSum = 0;
     decimal currnetStudentGrade = 0;
 
+    int count = 0;
+
     foreach (int score in studentScores)
     {
-        studentSum += score;
+        count++;
+
+        if (count <= currentAssignments)
+        {
+            studentSum += score;
+        }
+
+        else
+        {
+            studentSum += score / 10;
+        }
     }
     currnetStudentGrade = (decimal)studentSum / currentAssignments;
 
