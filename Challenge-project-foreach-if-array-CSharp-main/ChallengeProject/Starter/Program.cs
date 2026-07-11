@@ -18,7 +18,6 @@ This C# console application is designed to:
     Emma:           85.6    B
     Logan:          91.2    A-
 */
-
 int examAssignments = 5;
 
 string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
@@ -34,7 +33,7 @@ string currentStudentLetterGrade = "";
 
 // display the header row for scores/grades
 Console.Clear();
-Console.WriteLine("Student\tExam Score\t\tOverall Grade\n");
+Console.WriteLine("Student\t\tGrade\tLetter Grade\n");
 
 /*
 The outer foreach loop is used to:
@@ -61,11 +60,10 @@ foreach (string name in studentNames)
         studentScores = loganScores;
 
     int sumAssignmentScores = 0;
+
     decimal currentStudentGrade = 0;
+
     int gradedAssignments = 0;
-    int examScore;
-    int extraCredit;
-    decimal studentExamGrade = 0;
 
     /* 
     the inner foreach loop sums assignment scores
@@ -76,51 +74,57 @@ foreach (string name in studentNames)
         gradedAssignments += 1;
 
         if (gradedAssignments <= examAssignments)
-        {
             sumAssignmentScores += score;
-            examScore = sumAssignmentScores;
-        }
+
         else
-        {
             sumAssignmentScores += score / 10;
-            extraCredit = sumAssignmentScores;
-        }
     }
 
     currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
-    studentExamGrade = (decimal)(examScore) / examAssignments;
 
     if (currentStudentGrade >= 97)
         currentStudentLetterGrade = "A+";
+
     else if (currentStudentGrade >= 93)
         currentStudentLetterGrade = "A";
+
     else if (currentStudentGrade >= 90)
         currentStudentLetterGrade = "A-";
+
     else if (currentStudentGrade >= 87)
         currentStudentLetterGrade = "B+";
+
     else if (currentStudentGrade >= 83)
         currentStudentLetterGrade = "B";
+
     else if (currentStudentGrade >= 80)
         currentStudentLetterGrade = "B-";
+
     else if (currentStudentGrade >= 77)
         currentStudentLetterGrade = "C+";
+
     else if (currentStudentGrade >= 73)
         currentStudentLetterGrade = "C";
+
     else if (currentStudentGrade >= 70)
         currentStudentLetterGrade = "C-";
+
     else if (currentStudentGrade >= 67)
         currentStudentLetterGrade = "D+";
+
     else if (currentStudentGrade >= 63)
         currentStudentLetterGrade = "D";
+
     else if (currentStudentGrade >= 60)
         currentStudentLetterGrade = "D-";
+
     else
         currentStudentLetterGrade = "F";
 
     // Student         Grade
     // Sophia:         92.2    A-
     
-    Console.WriteLine($"{currentStudent}\t\t{studentExamGrade}\t\t{currentStudentGrade}\t\t{currentStudentLetterGrade}");
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
 }
 
 // required for running in VS Code (keeps the Output windows open to view results)
