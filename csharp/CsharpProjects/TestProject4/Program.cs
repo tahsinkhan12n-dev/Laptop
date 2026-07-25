@@ -1,10 +1,15 @@
-﻿//bool flage = true;
-int value;
+﻿int[] numbers = { 4, 8, 15, 16, 23, 42 };
+int total = 0;
+bool found = false;
 
-if (true)
+foreach (int number in numbers)
 {
-    value = 10;
-    Console.WriteLine($"Inside the code bloce: {value}");
+    total += number;
+    if (number == 42)
+        found = true;
 }
 
-Console.WriteLine($"Outside the code block: {value}");
+if (found)
+    Console.WriteLine("Set contains 42");
+
+Console.WriteLine($"Total: {total}");
