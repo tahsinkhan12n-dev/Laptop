@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\code\\csharp\\CsharpProjects\\TestProject8\\TestProject8.csproj": {}
+    "D:\\code\\csharp\\CsharpProjects\\TestProject9\\TestProject9.csproj": {}
   },
   "projects": {
-    "d:\\code\\csharp\\CsharpProjects\\TestProject8\\TestProject8.csproj": {
+    "D:\\code\\csharp\\CsharpProjects\\TestProject9\\TestProject9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\code\\csharp\\CsharpProjects\\TestProject8\\TestProject8.csproj",
-        "projectName": "TestProject8",
-        "projectPath": "d:\\code\\csharp\\CsharpProjects\\TestProject8\\TestProject8.csproj",
+        "projectUniqueName": "D:\\code\\csharp\\CsharpProjects\\TestProject9\\TestProject9.csproj",
+        "projectName": "TestProject9",
+        "projectPath": "D:\\code\\csharp\\CsharpProjects\\TestProject9\\TestProject9.csproj",
         "packagesPath": "C:\\Users\\TECNO\\.nuget\\packages\\",
-        "outputPath": "d:\\code\\csharp\\CsharpProjects\\TestProject8\\obj\\",
+        "outputPath": "D:\\code\\csharp\\CsharpProjects\\TestProject9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TECNO\\AppData\\Roaming\\NuGet\\NuGet.Config"
