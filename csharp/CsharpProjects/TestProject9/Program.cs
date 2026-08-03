@@ -16,4 +16,3 @@ do
         }
     }
 } while (validEntry == false);
-
