@@ -21,7 +21,7 @@ int main()
         scanf("%d %d", &voters[i].age, &voters[i].citizen);
     }
 
-
+    // loop for eligible voters
     for (int j = 0; j < MAX; j++)
     {
         if (voters[j].age >= 18 && voters[j].citizen == 1)
