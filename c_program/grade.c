@@ -15,9 +15,11 @@ int main()
     printf("Enter number of student: ");
     scanf("%d", &MAX);
 
+    getchar();
+
     student students[MAX];
-    int gradePoint;
-    int totalGradePoint = 0;
+    float gradePoint;
+    float totalGradePoint = 0;
 
    
 
@@ -27,27 +29,27 @@ int main()
         fgets(students[i].studetName, 30, stdin);
         students[i].studetName[strcspn(students[i].studetName, "\n")] = '\0';
 
+        getchar();
+
         printf("Enter your student Id last 3 digit: ");
         scanf("%d", &students[i].id);
 
 
         for (int j = 0; j < 4; j++)
         {
-            printf("Enter student's mark on subject %d", j + 1);
-            scanf("%d", &gradePoint);
+            printf("Enter student's grade point on subject %d: ", i + 1);
+            scanf("%f", &gradePoint);
 
             totalGradePoint = totalGradePoint + gradePoint;
         }
 
         students[i].cgpa = (1.0) * totalGradePoint / 4;
-
-        totalGradePoint = 0;
     }
-
+    
     printf("Student name\t\t\tStudent Id\t\tGrade");
     for (int k = 0; k < MAX; k++)
     {
-        printf("%s\t\t\t%d\t\t%.2f", students[k].studetName, students[k].id, students[k].cgpa);
+        printf("\n%s\t\t\t%d\t\t%.2f\n", students[k].studetName, students[k].id, students[k].cgpa);
     }
 
     return 0;
