@@ -13,5 +13,5 @@ int main()
 
 int area(int weidth, int length)
 {
-    printf("%d", weidth * length);
+    printf("%d Sq. unit", weidth * length);
 }
