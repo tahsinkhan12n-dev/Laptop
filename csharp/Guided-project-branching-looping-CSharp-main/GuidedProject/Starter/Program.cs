@@ -114,7 +114,11 @@ do
     switch (menuSelection)
     {
         case "1":
-            Console.WriteLine("This app feature is coming soon - check back to see the progrees");
+            // lsit of all the current pet imformation
+            for (int i = 0; i < maxPets; i++)
+            {
+                
+            }
             Console.WriteLine("Press the Enter key to continue");
             readResult = Console.ReadLine();
             break;
