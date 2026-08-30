@@ -117,7 +117,10 @@ do
             // lsit of all the current pet imformation
             for (int i = 0; i < maxPets; i++)
             {
-                
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    
+                }
             }
             Console.WriteLine("Press the Enter key to continue");
             readResult = Console.ReadLine();
