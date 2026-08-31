@@ -119,16 +119,56 @@ do
             {
                 if (ourAnimals[i, 0] != "ID #: ")
                 {
-                    
+                    Console.WriteLine();
+                    for (int j = 0; j < 6; j++)
+                    {
+                        Console.WriteLine(ourAnimals[i, j]);
+                    }
                 }
             }
             Console.WriteLine("Press the Enter key to continue");
             readResult = Console.ReadLine();
             break;
         case "2":
-            Console.WriteLine("This app feature is coming soon - check back to see the progrees");
-            Console.WriteLine("Press the Enter key to continue");
-            readResult = Console.ReadLine();
+            //Console.WriteLine("This app feature is coming soon - check back to see the progrees");
+            string anotherPet = "y";
+            int petCount = 0;
+
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    petCount += 1;
+                }
+            }
+
+            if (petCount < maxPets)
+            {
+                Console.WriteLine($"We have {petCount} pets that need home. We can manage {maxPets - petCount} more.");
+            }
+
+            while (anotherPet == "y" && petCount < maxPets)
+            {
+                petCount += 1;
+                if (petCount < maxPets)
+                {
+                    Console.WriteLine("Do you want to enter info of a new pet (y/n)");
+                    do
+                    {
+                        readResult = Console.ReadLine();
+                        if (readResult != null)
+                        {
+                            anotherPet = readResult.ToLower();
+                        }
+                    } while (anotherPet != "y" && anotherPet != "n");
+                }
+            }
+            if (petCount >= maxPets)
+            {
+                Console.WriteLine("We have reached the limit of pet that we can manage");
+                Console.WriteLine("Press the Enter key to continue");
+                readResult = Console.ReadLine();
+            }
             break;
         case "3":
             Console.WriteLine("Challenge Project - please check back soon to see progress.");
