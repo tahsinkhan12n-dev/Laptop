@@ -1,4 +1,6 @@
 // the ourAnimals array will store the following: 
+using System.Transactions;
+
 string animalSpecies = "";
 string animalID = "";
 string animalAge = "";
@@ -165,7 +167,26 @@ do
                             validEntry = true;
                     }
                 } while (validEntry == false);
-                
+
+                animalID = animalSpecies.Substring(0, 1) + (petCount + 1).ToString();
+                do
+                {
+                    int petAge;
+                    Console.WriteLine("Enter the pet's age or enter ? if unknown");
+                    readResult = Console.ReadLine();
+                    if (readResult != null)
+                    {
+                        animalAge = readResult;
+                        if (animalAge != "?")
+                        {
+                            validEntry = int.TryParse(animalAge, out petAge);
+                        }
+                        else
+                        {
+                            validEntry = true;
+                        }
+                    }
+                } while (validEntry == false);
                 petCount += 1;
                 if (petCount < maxPets)
                 {
