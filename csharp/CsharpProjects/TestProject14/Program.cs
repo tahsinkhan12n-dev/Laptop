@@ -37,10 +37,46 @@ Console.WriteLine($"int: {myInt}");
 
 decimal myDecimal = myInt;
 Console.WriteLine($"decimal: {myDecimal}");
-*/
+
 
 decimal myDecimal = 3.14m;
 Console.WriteLine($"decimal: {myDecimal}");
 
 int myInt = (int)myDecimal;
 Console.WriteLine($"int: {myInt}");
+
+string name = "bad";
+int num = 0;
+if (int.TryParse(name, out num))
+    Console.WriteLine($"Int: {num}");
+else
+    Console.WriteLine("Unable to convert");
+if (num > 0)
+    Console.WriteLine($"num, (w/ offset): {50 + num}");
+
+*/
+/*
+using System.Security.Principal;
+
+string[] values = {"12.4", "45", "ABC", "11", "DEF"};
+string message = "";
+decimal total = 0m;
+for (int i = 0; i < values.Length; i++)
+{
+    decimal num;
+    if (decimal.TryParse(values[i], out num))
+        total += num;
+    else
+        message += values[i];
+}
+Console.WriteLine($"Message: {message}");
+Console.WriteLine($"Total: {total}");
+*/
+
+int value1 = 11;
+decimal value2 = 6.2m;
+float value3 = 4.3f;
+int result = value1 / Math.Round(value2);
+Console.WriteLine($"value1 / value2 = {}");
+
+Console.WriteLine($"value2 / value3 = {Math.Round(value2) / Math.Round(value3)}")
