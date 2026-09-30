@@ -76,7 +76,11 @@ Console.WriteLine($"Total: {total}");
 int value1 = 11;
 decimal value2 = 6.2m;
 float value3 = 4.3f;
-int result = value1 / Math.Round(value2);
-Console.WriteLine($"value1 / value2 = {}");
+int result = Convert.ToInt32(value1 / value2);
+Console.WriteLine($"value1 / value2 = {result}");
 
-Console.WriteLine($"value2 / value3 = {Math.Round(value2) / Math.Round(value3)}")
+decimal result2 = value2 / (decimal)value3;
+Console.WriteLine($"value2 / value3 = {result2}");
+
+float result3 = value3 / value1;
+Console.WriteLine($"value3 / value1 = {result3}");
