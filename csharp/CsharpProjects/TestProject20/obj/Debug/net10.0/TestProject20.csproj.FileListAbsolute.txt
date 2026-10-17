@@ -1,0 +1,15 @@
+D:\code\csharp\CsharpProjects\TestProject20\bin\Debug\net10.0\TestProject20.exe
+D:\code\csharp\CsharpProjects\TestProject20\bin\Debug\net10.0\TestProject20.deps.json
+D:\code\csharp\CsharpProjects\TestProject20\bin\Debug\net10.0\TestProject20.runtimeconfig.json
+D:\code\csharp\CsharpProjects\TestProject20\bin\Debug\net10.0\TestProject20.dll
+D:\code\csharp\CsharpProjects\TestProject20\bin\Debug\net10.0\TestProject20.pdb
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\TestProject20.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\TestProject20.AssemblyInfoInputs.cache
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\TestProject20.AssemblyInfo.cs
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\TestProject20.csproj.CoreCompileInputs.cache
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\TestProject20.sourcelink.json
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\TestProject20.dll
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\refint\TestProject20.dll
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\TestProject20.pdb
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\TestProject20.genruntimeconfig.cache
+D:\code\csharp\CsharpProjects\TestProject20\obj\Debug\net10.0\ref\TestProject20.dll

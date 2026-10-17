@@ -162,13 +162,13 @@ do
                     // Search combined descriptions and report results
                     dogDescription = ourAnimals[i, 4] + "\r\n" + ourAnimals[i, 5];
                     
-                    for (int j = 5; j > -1 ; j--)
+                    for (int j = 2; j > -1 ; j--)
                     {
                     // #5 update "searching" message to show countdown 
                         foreach (string icon in searchingIcons)
                         {
-                            Console.Write($"\rsearching our dog {ourAnimals[i, 3]} for {dogCharacteristic} {icon}");
-                            Thread.Sleep(250);
+                            Console.Write($"\rsearching our dog {ourAnimals[i, 3]} for {dogCharacteristic} {icon} {j.ToString()}");
+                            Thread.Sleep(100);
                         }
                         
                         Console.Write($"\r{new String(' ', Console.BufferWidth)}");
