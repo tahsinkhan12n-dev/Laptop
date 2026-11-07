@@ -62,7 +62,7 @@ string input = "there are snakes at the zoo";
 Console.WriteLine(input);
 Console.WriteLine(ReverseSentence(input));
 
-*/
+// fuction with a bool return type
 
 string[] words = {"racecar", "talented", "deified", "tent", "tenet"};
 
@@ -89,4 +89,31 @@ bool IsPalindrome(string word)
     }
 
     return true;
+}
+
+*/
+
+int target = 61;
+int[] coins = new int[] {5, 5, 50, 25, 25, 10, 5};
+int[] result = TwoCoins(coins, target);
+
+if (result.Length == 0)
+    Console.WriteLine("No two coins make change");
+else
+    Console.WriteLine($"Change found at positions {result[0]} and {result[1]}");
+
+int[] TwoCoins(int[] coins, int target)
+{
+    for (int i = 0; i < coins.Length; i++)
+    {
+        for (int j = 0 + i; j < coins.Length; j++)
+        {
+            if ((coins[i] + coins[j]) == target)
+            {
+                return new int[]{i, j};
+            }
+        }
+    }
+    // if no match is found [Edge case]
+    return new int[] {-1, -1};
 }
