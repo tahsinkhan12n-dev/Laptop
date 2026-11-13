@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define MAX 5
-#define EMPTY -1
+#define EMPTY (-1)
 
 int stack[MAX];
 int top = EMPTY;
