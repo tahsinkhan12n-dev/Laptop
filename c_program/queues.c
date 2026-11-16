@@ -73,7 +73,7 @@ void dequeue(queue* q)
         printf("\nQueue is empty!\n");
         return;
     }
-    q->front++;
+    q->front = (q->front + 1) % MAX;
     q->size--;
 }
 
@@ -84,8 +84,8 @@ void displayQueue(queue* q)
         printf("\nQueue is empty!\n");
         return;
     }
-    for (int i = q->front; i < q->size; i++)
+    for (int i = 0; i < q->size; ++i)
     {
-        printf("%d ", q->queues[i]);
+        printf("%d ", q->queues[(q->front + i) % MAX]);
     }
 }
