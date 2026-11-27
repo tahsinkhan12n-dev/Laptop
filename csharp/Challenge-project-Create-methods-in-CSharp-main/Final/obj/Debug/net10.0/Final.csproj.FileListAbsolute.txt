@@ -1,0 +1,15 @@
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\bin\Debug\net10.0\Final.exe
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\bin\Debug\net10.0\Final.deps.json
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\bin\Debug\net10.0\Final.runtimeconfig.json
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\bin\Debug\net10.0\Final.dll
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\bin\Debug\net10.0\Final.pdb
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\Final.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\Final.AssemblyInfoInputs.cache
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\Final.AssemblyInfo.cs
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\Final.csproj.CoreCompileInputs.cache
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\Final.sourcelink.json
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\Final.dll
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\refint\Final.dll
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\Final.pdb
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\Final.genruntimeconfig.cache
+D:\code\csharp\Challenge-project-Create-methods-in-CSharp-main\final\obj\Debug\net10.0\ref\Final.dll

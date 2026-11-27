@@ -1,0 +1,15 @@
+D:\code\csharp\CsharpProjects\TestProject28\bin\Debug\net10.0\TestProject28.exe
+D:\code\csharp\CsharpProjects\TestProject28\bin\Debug\net10.0\TestProject28.deps.json
+D:\code\csharp\CsharpProjects\TestProject28\bin\Debug\net10.0\TestProject28.runtimeconfig.json
+D:\code\csharp\CsharpProjects\TestProject28\bin\Debug\net10.0\TestProject28.dll
+D:\code\csharp\CsharpProjects\TestProject28\bin\Debug\net10.0\TestProject28.pdb
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\TestProject28.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\TestProject28.AssemblyInfoInputs.cache
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\TestProject28.AssemblyInfo.cs
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\TestProject28.csproj.CoreCompileInputs.cache
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\TestProject28.sourcelink.json
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\TestProject28.dll
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\refint\TestProject28.dll
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\TestProject28.pdb
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\TestProject28.genruntimeconfig.cache
+D:\code\csharp\CsharpProjects\TestProject28\obj\Debug\net10.0\ref\TestProject28.dll
